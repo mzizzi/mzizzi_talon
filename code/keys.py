@@ -158,7 +158,8 @@ punctuation_words = {
 symbol_key_words = {
     "dot": ".",
     "point": ".",
-    "quote": "'",
+    # "quote": "'",
+    "smote": "'",
     "apostrophe": "'",
     "L square": "[",
     "left square": "[",
@@ -197,6 +198,7 @@ symbol_key_words = {
     "caret": "^",
     "amper": "&",
     "pipe": "|",
+    "quote": '"',
     "dubquote": '"',
     "double quote": '"',
 

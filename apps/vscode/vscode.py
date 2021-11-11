@@ -19,6 +19,8 @@ and app.name: Code
 os: linux
 and app.name: code-oss
 os: linux
+and app.name: code-oss-dev
+os: linux
 and app.name: code-insiders
 os: linux
 and app.name: VSCodium
