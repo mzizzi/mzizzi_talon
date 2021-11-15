@@ -202,10 +202,5 @@ curse undo: user.vscode("cursorUndo")
 select word: user.vscode("editor.action.addSelectionToNextFindMatch")
 skip word: user.vscode("editor.action.moveSelectionToNextFindMatch")
 
-# jupyter
-cell next: user.vscode("jupyter.gotoNextCellInFile")
-cell last: user.vscode("jupyter.gotoPrevCellInFile")
-cell run above: user.vscode("jupyter.runallcellsabove.palette")
-cell run: user.vscode("jupyter.runcurrentcell")
-
 install local: user.vscode("workbench.extensions.action.installVSIX")
+
