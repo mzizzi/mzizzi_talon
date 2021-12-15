@@ -3,6 +3,8 @@ ctx = Context()
 ctx.matches = r"""
 os: windows
 app: chrome
+os: linux
+app: Chromium
 """
 ctx.tags = ['browser', 'user.tabs']
 
