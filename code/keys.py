@@ -175,6 +175,7 @@ symbol_key_words = {
     "bang": "!",
     "skid": "_",
     "paren": "(",
+    "circle": "(",
     "L paren": "(",
     "left paren": "(",
     "R paren": ")",
