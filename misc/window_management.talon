@@ -17,3 +17,28 @@ snap <user.running_applications> <user.window_snap_position>:
     user.snap_app(running_applications, window_snap_position)
 snap <user.running_applications> [screen] <number>:
     user.move_app_to_screen(running_applications, number)
+
+portal [<phrase>]$:
+    user.switcher_focus("Google Chrome")
+    sleep(200ms)
+    # user.parse_phrase(phrase or "")
+coder [<phrase>]$:
+    user.switcher_focus("Code")
+    sleep(200ms)
+    # user.parse_phrase(phrase or "")
+voice adjust [<phrase>]$:
+    user.switcher_focus("Code")
+    user.vscode("workbench.action.openRecent")
+    sleep(50ms)
+    insert("mzizzi_talon")
+    key(enter)
+    sleep(250ms)
+    # user.parse_phrase(phrase or "")
+slacker [<phrase>]$:
+    user.switcher_focus("Slack")
+    sleep(200ms)
+    # user.parse_phrase(phrase or "")
+charmer [<phrase>]$:
+    user.switcher_focus("PyCharm")
+    sleep(200ms)
+    # user.parse_phrase(phrase or "")
