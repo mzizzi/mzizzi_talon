@@ -148,6 +148,9 @@ git stage all: user.vscode("git.stageAll")
 git unstage: user.vscode("git.unstage")
 git unstage all: user.vscode("git.unstageAll")
 pull request: user.vscode("pr.create")
+blame file: user.vscode("gitlens.toggleFileBlame")
+blame line: user.vscode("gitlens.toggleLineBlame")
+
 change next: key(alt-f5)
 change last: key(shift-alt-f5)
 

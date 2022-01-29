@@ -180,6 +180,7 @@ symbol_key_words = {
     "left paren": "(",
     "R paren": ")",
     "right paren": ")",
+    "clamp": ")",
     "lace": "{",
     "race": "}",
     "langle": "<",
@@ -194,7 +195,7 @@ symbol_key_words = {
     "pipe": "|",
     "quote": '"',
     "wink": ";",
-    "clap": ":",
+    "stack": ":", 
     
 
     # Currencies
@@ -239,6 +240,8 @@ if app.platform in ("windows", "linux"):
     alternate_keys["print screen"] = "printscr"
 
 special_keys = {k: k for k in simple_keys}
+special_keys["clap"] = "enter"
+
 special_keys.update(alternate_keys)
 ctx.lists["self.special_key"] = special_keys
 ctx.lists["self.function_key"] = {
